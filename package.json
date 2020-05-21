@@ -1,0 +1,23 @@
+{
+  "name": "@makepad/httpromise",
+  "version": "1.0.0",
+  "description": "Yet an other http promisify module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Clique-Paris/httpromise.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "http"
+  ],
+  "author": "Makepad developers <dev@makepad.fr>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/Clique-Paris/httpromise/issues"
+  },
+  "homepage": "https://github.com/Clique-Paris/httpromise#readme"
+}
