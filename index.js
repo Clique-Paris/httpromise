@@ -28,7 +28,7 @@ module.exports.get = async function get(url) {
         res.on('data', (chunk) => { rawData += chunk; });
         res.on('end', () => {
             try {
-                resolve(parsedData);
+                resolve(rawData);
             } catch (e) {
                 reject(e);
             }
